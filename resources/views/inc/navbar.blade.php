@@ -35,7 +35,7 @@
                           <a href="#" class="nav-link">Chief Executive Officer</a>
                             <a href="#" class="nav-link">Chief Operational Officer</a>
                             <a href="#" class="nav-link">Chief Financial Officer</a>
-                            <a href="#" class="nav-link">CPO</a>
+                            
                         </nav>
                     </div>
                     <div class="sb-sidenav-menu-heading">Finance</div>

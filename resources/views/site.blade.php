@@ -37,13 +37,7 @@
                             @csrf
                         </form>
                     </div>
-                    {{-- <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" href="#">Activity Log</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="login.html">Logout</a>
-                    </div> --}}
+               
                 </li>
             </ul>
         </nav>
@@ -54,7 +48,7 @@
                         <div class="nav">
                            
                         
-                            <a class="nav-link collapsed" href="constructionM.html" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
                            Administration
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
@@ -64,7 +58,7 @@
                                   <a href="#" class="nav-link">Chief Executive Officer</a>
                                     <a href="#" class="nav-link">Chief Operational Officer</a>
                                     <a href="#" class="nav-link">Chief Financial Officer</a>
-                                    <a href="#" class="nav-link">CPO</a>
+                                   
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Finance</div>

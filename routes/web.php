@@ -28,10 +28,10 @@ Route::get('/admin', function (){
      return view('admin');
 });
 Route::get('/account', function (){
-    return('account');
+    return view('account');
 });
 Route::get('/constructionM' ,function(){
-  return('constructionM');
+  return view('constructionM');
 });
 Route::get('/proc', function (){
     return view('proc');
@@ -40,10 +40,10 @@ Route::get('/register', function (){
      return view('register');
 });
 Route::get('/site', function (){
-    return('site');
+    return view('site');
 });
 Route::get('/store' ,function(){
-  return('store');
+  return view('store');
 });
 Auth::routes();
 

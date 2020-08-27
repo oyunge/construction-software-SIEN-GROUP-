@@ -37,13 +37,7 @@
                             @csrf
                         </form>
                     </div>
-                    {{-- <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" href="#">Activity Log</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="login.html">Logout</a>
-                    </div> --}}
+                
                 </li>
             </ul>
         </nav>
@@ -53,20 +47,8 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                            
-                            <!-- <div class="sb-sidenav-menu-heading">INTERFACE</div>
-                           
-                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Layouts
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.html">Static Navigation</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
-                                </nav>
-                            </div> -->
-                          <a class="nav-link collapsed" href="constructionM.html" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                      
+                          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
                            Administration
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
@@ -76,15 +58,15 @@
                                   <a href="#" class="nav-link">Chief Executive Officer</a>
                                     <a href="#" class="nav-link">Chief Operational Officer</a>
                                     <a href="#" class="nav-link">Chief Financial Officer</a>
-                                    <a href="#" class="nav-link">CPO</a>
+                                    
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Finance</div>
-                            <a class="nav-link" href="account.html">
+                            <a class="nav-link" href="/account">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                                 Accountant
                             </a>
-                            <a class="nav-link" href="proc.html">
+                            <a class="nav-link" href="/proc">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                               Procurement Officer
                             </a>
@@ -102,9 +84,9 @@
                                     </a>
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="site.html">Site Agent</a>
-                                            <a class="nav-link" href="store.html">Store Manager</a>
-                                            <a class="nav-link" href="constructionM.html">Construction Manager</a>
+                                            <a class="nav-link" href="/site">Site Agent</a>
+                                            <a class="nav-link" href="/store">Store Manager</a>
+                                            <a class="nav-link" href="/constructionM">Construction Manager</a>
                                         </nav>
                                     </div>
                                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
@@ -125,7 +107,7 @@
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                        Oyunge
+                        {{ Auth::user()->name }} <span class="caret"></span>
                     </div>
                 </nav>
             </div>
